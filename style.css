@@ -58,8 +58,11 @@ a {
 button {
     background-color: #3882F6;
     color: #f9faf8;
-    margin-right: auto;
     padding: 8px 50px;
+}
+
+.hero-button {
+    margin-right: auto;
 }
 
 .information {
@@ -103,4 +106,23 @@ p {
     color: #1F2937;
     font-weight: 800;
     text-align: end;
+}
+
+.action {
+    display: flex;
+    margin: 50px 100px;
+    padding: 50px 75px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    color:#e5e7eb;
+    font-size: 24px;
+    align-items: center;
+}
+
+.call {
+    font-weight: 800;
+}
+
+.action-button {
+    border: white;
 }
